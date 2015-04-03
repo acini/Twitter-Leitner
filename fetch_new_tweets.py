@@ -18,4 +18,4 @@ for status in statuses:
 		new_fetched_tweets.append(dataline)
 
 new_tweets_to_append = "\n"+'\n'.join(new_fetched_tweets)
-open('fetched_tweets_db.csv','a').write(new_tweets_to_append)
+open('fetched_tweets_db.csv','a').write(new_tweets_to_append.strip())
