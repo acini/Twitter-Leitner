@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import csv, datetime
+import datetime
 
 cleanarray = []
 
